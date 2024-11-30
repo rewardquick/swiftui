@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70548F42C33D96900A74183 /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = F70548F32C33D96900A74183 /* PhoneNumberKit */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F70549042C37408900A74183 /* RewardDetailItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70549032C37408900A74183 /* RewardDetailItemView.swift */; };
+		F70549062C3740A700A74183 /* RewardRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70549052C3740A700A74183 /* RewardRowView.swift */; };
+		F70549082C3740C600A74183 /* MoreRewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70549072C3740C600A74183 /* MoreRewardsView.swift */; };
+		F705490D2C3741AE00A74183 /* PhoneNumberTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F705490C2C3741AE00A74183 /* PhoneNumberTextFieldView.swift */; };
+		F70549102C3741E000A74183 /* GenderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F705490F2C3741E000A74183 /* GenderButton.swift */; };
+		F70549122C37420000A74183 /* KeyboardAvoider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70549112C37420000A74183 /* KeyboardAvoider.swift */; };
+		F74EB4082C3A48CB00D8D101 /* RewardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFFC322C1D23DB00A257BC /* RewardDetailView.swift */; };
+		F788EC662C3A900000446331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F788EC642C3A900000446331 /* Assets.xcassets */; };
+		F7A5ED1E2C1E199A0094E404 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A5ED1D2C1E199A0094E404 /* InformationView.swift */; };
+		F7AFFC2D2C1BF2A700A257BC /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFFC2C2C1BF2A700A257BC /* RewardView.swift */; };
+		F7AFFC302C1BF2C200A257BC /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFFC2F2C1BF2C200A257BC /* CartView.swift */; };
+		F7CC51B82C17F624000D0B62 /* FastRewardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC51B72C17F624000D0B62 /* FastRewardApp.swift */; };
+		F7CC51BA2C17F624000D0B62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC51B92C17F624000D0B62 /* ContentView.swift */; };
+		F7CC51BC2C17F625000D0B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CC51BB2C17F625000D0B62 /* Assets.xcassets */; };
+		F7CC51BF2C17F625000D0B62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CC51BE2C17F625000D0B62 /* Preview Assets.xcassets */; };
+		F7CC51CC2C17F6DC000D0B62 /* FastRewardClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC51CB2C17F6DC000D0B62 /* FastRewardClipApp.swift */; };
+		F7CC51CE2C17F6DC000D0B62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC51CD2C17F6DC000D0B62 /* ContentView.swift */; };
+		F7CC51D82C17F6DF000D0B62 /* FastRewardClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = F7CC51C92C17F6DC000D0B62 /* FastRewardClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7CC51E52C19EB5D000D0B62 /* ListRewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC51E42C19EB5D000D0B62 /* ListRewardsView.swift */; };
+		F7CC51ED2C19F0E1000D0B62 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CC51EC2C19F0E1000D0B62 /* Colors.xcassets */; };
+		F7D0FE8C2C3BDAA600B67BA3 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0FE8A2C3BDAA600B67BA3 /* Reward.swift */; };
+		F7D0FE8D2C3BDAA600B67BA3 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0FE8B2C3BDAA600B67BA3 /* NavigationBarModifier.swift */; };
+		F7D0FE8F2C3BDC5100B67BA3 /* HomeIndicatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0FE8E2C3BDC5100B67BA3 /* HomeIndicatorController.swift */; };
+		F7D0FE922C3E736D00B67BA3 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0FE912C3E736D00B67BA3 /* CustomScrollView.swift */; };
+		F7D0FE972C3FDAC800B67BA3 /* CodeGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0FE962C3FDAC800B67BA3 /* CodeGeneratorView.swift */; };
+		F7D0FE9B2C3FDD9500B67BA3 /* FinalPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0FE9A2C3FDD9500B67BA3 /* FinalPageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7CC51D62C17F6DF000D0B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7CC51AC2C17F624000D0B62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7CC51C82C17F6DC000D0B62;
+			remoteInfo = TaperkClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7CC51DC2C17F6DF000D0B62 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				F7CC51D82C17F6DF000D0B62 /* FastRewardClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F70549032C37408900A74183 /* RewardDetailItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardDetailItemView.swift; sourceTree = "<group>"; };
+		F70549052C3740A700A74183 /* RewardRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRowView.swift; sourceTree = "<group>"; };
+		F70549072C3740C600A74183 /* MoreRewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreRewardsView.swift; sourceTree = "<group>"; };
+		F705490C2C3741AE00A74183 /* PhoneNumberTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextFieldView.swift; sourceTree = "<group>"; };
+		F705490F2C3741E000A74183 /* GenderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderButton.swift; sourceTree = "<group>"; };
+		F70549112C37420000A74183 /* KeyboardAvoider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoider.swift; sourceTree = "<group>"; };
+		F788EC642C3A900000446331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7A5ED1D2C1E199A0094E404 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		F7AFFC2C2C1BF2A700A257BC /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		F7AFFC2F2C1BF2C200A257BC /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		F7AFFC322C1D23DB00A257BC /* RewardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardDetailView.swift; sourceTree = "<group>"; };
+		F7CC51B42C17F624000D0B62 /* FastReward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastReward.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CC51B72C17F624000D0B62 /* FastRewardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastRewardApp.swift; sourceTree = "<group>"; };
+		F7CC51B92C17F624000D0B62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7CC51BB2C17F625000D0B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7CC51BE2C17F625000D0B62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7CC51C92C17F6DC000D0B62 /* FastRewardClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastRewardClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CC51CB2C17F6DC000D0B62 /* FastRewardClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastRewardClipApp.swift; sourceTree = "<group>"; };
+		F7CC51CD2C17F6DC000D0B62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7CC51D22C17F6DF000D0B62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7CC51D42C17F6DF000D0B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CC51D52C17F6DF000D0B62 /* FastRewardClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastRewardClip.entitlements; sourceTree = "<group>"; };
+		F7CC51E42C19EB5D000D0B62 /* ListRewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRewardsView.swift; sourceTree = "<group>"; };
+		F7CC51EC2C19F0E1000D0B62 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F7D0FE8A2C3BDAA600B67BA3 /* Reward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		F7D0FE8B2C3BDAA600B67BA3 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		F7D0FE8E2C3BDC5100B67BA3 /* HomeIndicatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeIndicatorController.swift; sourceTree = "<group>"; };
+		F7D0FE912C3E736D00B67BA3 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		F7D0FE962C3FDAC800B67BA3 /* CodeGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGeneratorView.swift; sourceTree = "<group>"; };
+		F7D0FE9A2C3FDD9500B67BA3 /* FinalPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPageView.swift; sourceTree = "<group>"; };
+		F7D0FE9C2C3FF91B00B67BA3 /* FastRewardClipDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastRewardClipDebug.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7CC51B12C17F624000D0B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CC51C62C17F6DC000D0B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70548F42C33D96900A74183 /* PhoneNumberKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70549092C3740F600A74183 /* RewardDetailItem */ = {
+			isa = PBXGroup;
+			children = (
+				F70549032C37408900A74183 /* RewardDetailItemView.swift */,
+			);
+			path = RewardDetailItem;
+			sourceTree = "<group>";
+		};
+		F705490A2C37410D00A74183 /* RewardRow */ = {
+			isa = PBXGroup;
+			children = (
+				F70549052C3740A700A74183 /* RewardRowView.swift */,
+			);
+			path = RewardRow;
+			sourceTree = "<group>";
+		};
+		F705490B2C37412500A74183 /* MoreRewards */ = {
+			isa = PBXGroup;
+			children = (
+				F70549072C3740C600A74183 /* MoreRewardsView.swift */,
+			);
+			path = MoreRewards;
+			sourceTree = "<group>";
+		};
+		F705490E2C3741B300A74183 /* PhoneNumberTextField */ = {
+			isa = PBXGroup;
+			children = (
+				F705490C2C3741AE00A74183 /* PhoneNumberTextFieldView.swift */,
+			);
+			path = PhoneNumberTextField;
+			sourceTree = "<group>";
+		};
+		F70549132C37427300A74183 /* GenderButton */ = {
+			isa = PBXGroup;
+			children = (
+				F705490F2C3741E000A74183 /* GenderButton.swift */,
+			);
+			path = GenderButton;
+			sourceTree = "<group>";
+		};
+		F70549142C37427E00A74183 /* KeyboardAvoider */ = {
+			isa = PBXGroup;
+			children = (
+				F70549112C37420000A74183 /* KeyboardAvoider.swift */,
+			);
+			path = KeyboardAvoider;
+			sourceTree = "<group>";
+		};
+		F7A5ED1C2C1E198A0094E404 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				F7A5ED1D2C1E199A0094E404 /* InformationView.swift */,
+				F70549142C37427E00A74183 /* KeyboardAvoider */,
+				F70549132C37427300A74183 /* GenderButton */,
+				F705490E2C3741B300A74183 /* PhoneNumberTextField */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		F7AFFC2B2C1BF29F00A257BC /* RewardView */ = {
+			isa = PBXGroup;
+			children = (
+				F7AFFC2C2C1BF2A700A257BC /* RewardView.swift */,
+			);
+			path = RewardView;
+			sourceTree = "<group>";
+		};
+		F7AFFC2E2C1BF2BE00A257BC /* CartView */ = {
+			isa = PBXGroup;
+			children = (
+				F7AFFC2F2C1BF2C200A257BC /* CartView.swift */,
+			);
+			path = CartView;
+			sourceTree = "<group>";
+		};
+		F7AFFC312C1D235100A257BC /* RewardDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F7AFFC322C1D23DB00A257BC /* RewardDetailView.swift */,
+				F70549092C3740F600A74183 /* RewardDetailItem */,
+				F705490A2C37410D00A74183 /* RewardRow */,
+				F705490B2C37412500A74183 /* MoreRewards */,
+			);
+			path = RewardDetail;
+			sourceTree = "<group>";
+		};
+		F7CC51AB2C17F624000D0B62 = {
+			isa = PBXGroup;
+			children = (
+				F7CC51B62C17F624000D0B62 /* FastReward */,
+				F7CC51CA2C17F6DC000D0B62 /* FastRewardClip */,
+				F7CC51B52C17F624000D0B62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7CC51B52C17F624000D0B62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC51B42C17F624000D0B62 /* FastReward.app */,
+				F7CC51C92C17F6DC000D0B62 /* FastRewardClip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7CC51B62C17F624000D0B62 /* FastReward */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC51B72C17F624000D0B62 /* FastRewardApp.swift */,
+				F7CC51B92C17F624000D0B62 /* ContentView.swift */,
+				F7CC51BB2C17F625000D0B62 /* Assets.xcassets */,
+				F7CC51BD2C17F625000D0B62 /* Preview Content */,
+			);
+			path = FastReward;
+			sourceTree = "<group>";
+		};
+		F7CC51BD2C17F625000D0B62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC51BE2C17F625000D0B62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7CC51CA2C17F6DC000D0B62 /* FastRewardClip */ = {
+			isa = PBXGroup;
+			children = (
+				F7D0FE9C2C3FF91B00B67BA3 /* FastRewardClipDebug.entitlements */,
+				F7CC51D12C17F6DF000D0B62 /* Preview Content */,
+				F7CC51DD2C19E96A000D0B62 /* Resources */,
+				F7CC51E22C19EAC4000D0B62 /* Scenes */,
+				F7CC51CB2C17F6DC000D0B62 /* FastRewardClipApp.swift */,
+				F7CC51CD2C17F6DC000D0B62 /* ContentView.swift */,
+				F7CC51D52C17F6DF000D0B62 /* FastRewardClip.entitlements */,
+				F7CC51D42C17F6DF000D0B62 /* Info.plist */,
+			);
+			path = FastRewardClip;
+			sourceTree = "<group>";
+		};
+		F7CC51D12C17F6DF000D0B62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC51D22C17F6DF000D0B62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7CC51DD2C19E96A000D0B62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC51EC2C19F0E1000D0B62 /* Colors.xcassets */,
+				F788EC642C3A900000446331 /* Assets.xcassets */,
+				F7D0FE8B2C3BDAA600B67BA3 /* NavigationBarModifier.swift */,
+				F7D0FE8E2C3BDC5100B67BA3 /* HomeIndicatorController.swift */,
+				F7D0FE8A2C3BDAA600B67BA3 /* Reward.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7CC51E22C19EAC4000D0B62 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F7D0FE992C3FDD8D00B67BA3 /* FinalPageView */,
+				F7D0FE952C3FDABD00B67BA3 /* CodeGeneratorView */,
+				F7A5ED1C2C1E198A0094E404 /* Information */,
+				F7AFFC312C1D235100A257BC /* RewardDetail */,
+				F7CC51E32C19EAD4000D0B62 /* ListRewards */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F7CC51E32C19EAD4000D0B62 /* ListRewards */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC51E42C19EB5D000D0B62 /* ListRewardsView.swift */,
+				F7D0FE902C3E736100B67BA3 /* CustomScrollView */,
+				F7AFFC2E2C1BF2BE00A257BC /* CartView */,
+				F7AFFC2B2C1BF29F00A257BC /* RewardView */,
+			);
+			path = ListRewards;
+			sourceTree = "<group>";
+		};
+		F7D0FE902C3E736100B67BA3 /* CustomScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F7D0FE912C3E736D00B67BA3 /* CustomScrollView.swift */,
+			);
+			path = CustomScrollView;
+			sourceTree = "<group>";
+		};
+		F7D0FE952C3FDABD00B67BA3 /* CodeGeneratorView */ = {
+			isa = PBXGroup;
+			children = (
+				F7D0FE962C3FDAC800B67BA3 /* CodeGeneratorView.swift */,
+			);
+			path = CodeGeneratorView;
+			sourceTree = "<group>";
+		};
+		F7D0FE992C3FDD8D00B67BA3 /* FinalPageView */ = {
+			isa = PBXGroup;
+			children = (
+				F7D0FE9A2C3FDD9500B67BA3 /* FinalPageView.swift */,
+			);
+			path = FinalPageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7CC51B32C17F624000D0B62 /* FastReward */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CC51C22C17F625000D0B62 /* Build configuration list for PBXNativeTarget "FastReward" */;
+			buildPhases = (
+				F7CC51B02C17F624000D0B62 /* Sources */,
+				F7CC51B12C17F624000D0B62 /* Frameworks */,
+				F7CC51B22C17F624000D0B62 /* Resources */,
+				F7CC51DC2C17F6DF000D0B62 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7CC51D72C17F6DF000D0B62 /* PBXTargetDependency */,
+			);
+			name = FastReward;
+			productName = Taperk;
+			productReference = F7CC51B42C17F624000D0B62 /* FastReward.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7CC51C82C17F6DC000D0B62 /* FastRewardClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CC51D92C17F6DF000D0B62 /* Build configuration list for PBXNativeTarget "FastRewardClip" */;
+			buildPhases = (
+				F7CC51C52C17F6DC000D0B62 /* Sources */,
+				F7CC51C62C17F6DC000D0B62 /* Frameworks */,
+				F7CC51C72C17F6DC000D0B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastRewardClip;
+			packageProductDependencies = (
+				F70548F32C33D96900A74183 /* PhoneNumberKit */,
+			);
+			productName = TaperkClip;
+			productReference = F7CC51C92C17F6DC000D0B62 /* FastRewardClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7CC51AC2C17F624000D0B62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F7CC51B32C17F624000D0B62 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F7CC51C82C17F6DC000D0B62 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F7CC51AF2C17F624000D0B62 /* Build configuration list for PBXProject "FastReward" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7CC51AB2C17F624000D0B62;
+			packageReferences = (
+				F70549022C33DDEE00A74183 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */,
+			);
+			productRefGroup = F7CC51B52C17F624000D0B62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7CC51B32C17F624000D0B62 /* FastReward */,
+				F7CC51C82C17F6DC000D0B62 /* FastRewardClip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7CC51B22C17F624000D0B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CC51BF2C17F625000D0B62 /* Preview Assets.xcassets in Resources */,
+				F7CC51BC2C17F625000D0B62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CC51C72C17F6DC000D0B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CC51ED2C19F0E1000D0B62 /* Colors.xcassets in Resources */,
+				F788EC662C3A900000446331 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7CC51B02C17F624000D0B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CC51BA2C17F624000D0B62 /* ContentView.swift in Sources */,
+				F7CC51B82C17F624000D0B62 /* FastRewardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CC51C52C17F6DC000D0B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70549062C3740A700A74183 /* RewardRowView.swift in Sources */,
+				F7AFFC302C1BF2C200A257BC /* CartView.swift in Sources */,
+				F7D0FE8F2C3BDC5100B67BA3 /* HomeIndicatorController.swift in Sources */,
+				F7D0FE972C3FDAC800B67BA3 /* CodeGeneratorView.swift in Sources */,
+				F70549042C37408900A74183 /* RewardDetailItemView.swift in Sources */,
+				F74EB4082C3A48CB00D8D101 /* RewardDetailView.swift in Sources */,
+				F7D0FE8C2C3BDAA600B67BA3 /* Reward.swift in Sources */,
+				F7D0FE8D2C3BDAA600B67BA3 /* NavigationBarModifier.swift in Sources */,
+				F70549102C3741E000A74183 /* GenderButton.swift in Sources */,
+				F70549122C37420000A74183 /* KeyboardAvoider.swift in Sources */,
+				F7D0FE9B2C3FDD9500B67BA3 /* FinalPageView.swift in Sources */,
+				F705490D2C3741AE00A74183 /* PhoneNumberTextFieldView.swift in Sources */,
+				F7D0FE922C3E736D00B67BA3 /* CustomScrollView.swift in Sources */,
+				F7CC51E52C19EB5D000D0B62 /* ListRewardsView.swift in Sources */,
+				F7CC51CE2C17F6DC000D0B62 /* ContentView.swift in Sources */,
+				F7AFFC2D2C1BF2A700A257BC /* RewardView.swift in Sources */,
+				F7A5ED1E2C1E199A0094E404 /* InformationView.swift in Sources */,
+				F70549082C3740C600A74183 /* MoreRewardsView.swift in Sources */,
+				F7CC51CC2C17F6DC000D0B62 /* FastRewardClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7CC51D72C17F6DF000D0B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7CC51C82C17F6DC000D0B62 /* FastRewardClip */;
+			targetProxy = F7CC51D62C17F6DF000D0B62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F7CC51C02C17F625000D0B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7CC51C12C17F625000D0B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7CC51C32C17F625000D0B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FastReward/Preview Content\"";
+				DEVELOPMENT_TEAM = 9QLYGSN8U9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FastReward;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genepol.FastReward;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7CC51C42C17F625000D0B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FastReward/Preview Content\"";
+				DEVELOPMENT_TEAM = 9QLYGSN8U9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FastReward;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genepol.FastReward;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7CC51DA2C17F6DF000D0B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FastRewardClip/FastRewardClipDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FastRewardClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 9QLYGSN8U9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastRewardClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FastReward;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genepol.FastReward.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7CC51DB2C17F6DF000D0B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FastRewardClip/FastRewardClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FastRewardClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 9QLYGSN8U9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastRewardClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FastReward;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genepol.FastReward.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7CC51AF2C17F624000D0B62 /* Build configuration list for PBXProject "FastReward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CC51C02C17F625000D0B62 /* Debug */,
+				F7CC51C12C17F625000D0B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CC51C22C17F625000D0B62 /* Build configuration list for PBXNativeTarget "FastReward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CC51C32C17F625000D0B62 /* Debug */,
+				F7CC51C42C17F625000D0B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CC51D92C17F6DF000D0B62 /* Build configuration list for PBXNativeTarget "FastRewardClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CC51DA2C17F6DF000D0B62 /* Debug */,
+				F7CC51DB2C17F6DF000D0B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F70549022C33DDEE00A74183 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/PhoneNumberKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.7.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F70548F32C33D96900A74183 /* PhoneNumberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PhoneNumberKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F7CC51AC2C17F624000D0B62 /* Project object */;
+}
